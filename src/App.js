@@ -3,6 +3,7 @@ import Navigation from './screens/navigationBar/NavigationBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticleAnimation from 'react-particle-animation';
 import Header from './screens/header/Header';
+import AboutMe from './screens/aboutMe/AboutMe';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         background={{ r: 21, g: 22, b: 23, a: 1 }}
         particleSpeed={0.5}
         particleRadius={1.5}
-
       />
+      <AboutMe />
     </div>
   );
 }
