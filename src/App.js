@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticleAnimation from 'react-particle-animation';
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
+import Technologies from './screens/technologies/Technologies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         particleRadius={1.5}
       />
       <AboutMe />
+      <Technologies />
     </div>
   );
 }
